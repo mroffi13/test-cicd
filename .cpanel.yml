@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/qtayyerm/subdomain/test-ci-cd
     - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp .env.prod /home/qtayyerm/subdomain/test-ci-cd/.env
