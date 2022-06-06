@@ -2,6 +2,6 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/qtayyerm/subdomain/test-ci-cd
-    - /bin/ln -s /home/qtayyerm/repositories/test-ci-cd/public $DEPLOYPATH
+    - /bin/ln -s /home/qtayyerm/repositories/test-cicd/public $DEPLOYPATH
     - /bin/cp .env.prod .env
     - /bin/composer install
