@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/qtayyerm/public_html/
+    - export DEPLOYPATH=/home/qtayyerm/subdomain/test-ci-cd
     - /bin/cp -R * $DEPLOYPATH
